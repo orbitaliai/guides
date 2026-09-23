@@ -5,8 +5,10 @@
 This repository contains Orbitali guides and tutorials in US English, Spain Spanish,
 and Italian.
 
-- Keep `toc_en.md`, `toc_es.md`, and `toc_it.md` in the repository root. Each is a
-  table of contents with a linked guide title and a description.
+- Keep `toc_en.md`, `toc_es.md`, and `toc_it.md` in the repository root. The website
+  parses these files: use a heading followed by a flat Markdown bullet list,
+  never a table. Put each entry on one line in the format
+  `- [Title](relative/path.md): Description`.
 - Use one descriptive, lowercase, hyphenated folder per guide.
 - Each guide folder contains `en.md`, `es.md`, `it.md`, and an `images/` directory.
 - Keep links portable: use relative paths for images, locale links, and TOC links.
